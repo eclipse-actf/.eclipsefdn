@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-actf') {
+orgs.newOrg('technology.actf', 'eclipse-actf') {
   settings+: {
     web_commit_signoff_required: false,
     workflows+: {
